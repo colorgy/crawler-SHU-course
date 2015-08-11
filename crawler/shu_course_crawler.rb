@@ -99,7 +99,7 @@ class ShihHsinUniversityCrawler
         # department_code: data[0].scan(/\w+/)[0],
         # note: data[11],          # 備註說明
         # term_type: data[3],       # 年別
-        # week_type: data[10],      # 週別
+        # week_type: data[10],      # 週別!!!有分單雙周!!!
         day_1: course_days[0],
         day_2: course_days[1],
         day_3: course_days[2],
